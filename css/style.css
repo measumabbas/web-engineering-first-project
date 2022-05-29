@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Lato:ital,wght@1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+.logo h3{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.about a,.login a{
+    color: #fff;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.about a:hover,.login a:hover{
+    border-bottom: 2px solid #fff;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #047aed;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8;
+    /* margin-bottom: 100px; */
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+.about{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 60px;
+}
+.login{
+    display: flex;
+    gap: 40px;
+}
+
+.container{
+    padding-left: 60px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 50px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+
+}
+.first-set{
+    width: 50%;
+}
+.second-set{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.round{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bottom{
+    width: 200px;
+    height: 300px;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+.first1{
+    padding: 20px;
+    line-height: 1.8;
+}
+.first1 h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.first1 p{
+    font-size: 20px;
+}
+.first1 h3{
+    font-weight: 400;
+    margin: 10px 0;
+    color: #047aed;
+    padding-bottom: 30px;
+}
+
+a.btn{
+    color: #fff;
+}
+.btn{
+    background-color: #047aed;
+    padding: 15px 30px;
+    border-radius: 5px;
+
+}
